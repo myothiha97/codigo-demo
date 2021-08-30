@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <Head>
-        <title>Codigo Example</title>
+        <title>Codigo Demo</title>
         <meta name="description" content="To demonstrate coding skills" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
