@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 
-import cards from "./card.data";
-import categories from "./category.data";
+// import cards from "./card.data";
+import cards from "../../data/workpage/card.data";
+import categories from "../../data/workpage/category.data";
 import sortCategories from "../../utils/category/sortCategory";
 
 import CardGrid from "../../components/cardGrid/cardGrid";

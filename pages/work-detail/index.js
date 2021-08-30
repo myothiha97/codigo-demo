@@ -1,10 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Pagination, Autoplay, EffectFade } from "swiper";
-
 import Link from "next/link";
-import images from "./imagelists.data";
+import images from "../../data/workDetailPage/imagelists.data";
 const WorkDetailPage = () => {
   const [slickImages, setSlickImages] = useState(images);
   const [imageIndex, setImageIndex] = useState(0);
