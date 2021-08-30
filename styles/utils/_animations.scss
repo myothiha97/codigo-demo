@@ -1,0 +1,158 @@
+@keyframes WorkOnBoardAnim {
+  0% {
+    transform: translate3d(0, 70px, 0);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+@keyframes AnimPTag--onBoard {
+  0% {
+    transform: skewY(40deg) translateY(50px);
+  }
+
+  100% {
+    transform: skewY(0) translate(0);
+  }
+}
+
+@keyframes AnimNavBarSocialItems--onboard {
+  0%,
+  40% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes showMenuBar {
+  0% {
+    margin-top: -100px;
+  }
+
+  100% {
+    margin-top: 0;
+  }
+}
+
+@keyframes fade-in-from-bottom {
+  0% {
+    transform: translateY(5px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes workGridItem {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -100px, 0) scale3d(0.95, 0.95, 0.95)
+      rotate3d(1, 0.05, 0, 5deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateZ(0) scaleX(1) rotate3d(0, 0, 0, 0);
+  }
+}
+
+@keyframes filterBall--onboard {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -50%, 0) scale3d(0, 0, 0);
+  }
+
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, -50%, 0) scaleX(1);
+  }
+}
+
+@keyframes filterBall--exit {
+  0% {
+    transform: translate3d(0, -50%, 0) scaleX(1);
+  }
+
+  100% {
+    transform: translate3d(0, -50%, 0) scale3d(0, 0, 0);
+  }
+}
+
+@keyframes WorkFilterText--onboard {
+  0% {
+    transform: scale3d(0, 0, 1) translate3d(15px, 0, 0) rotate(-90deg);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scaleX(1) translate3d(15px, 0, 0) rotate(-90deg);
+    opacity: 1;
+  }
+}
+
+@keyframes backArrowOnboard {
+  0% {
+    opacity: 0;
+    left: -100px;
+  }
+
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+
+@keyframes workDetailsOnboardTextSlideYIn {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 15px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+
+@keyframes workDetailsBallBGOnboard {
+  0% {
+    transform: scale3d(0, 0, 1) translate3d(-50%, -50%, 0);
+    border-radius: 43% 57% 56% 44%/55% 40% 60% 45%;
+  }
+  5% {
+    transform: scale3d(0, 0, 1) translate3d(-50%, -50%, 0);
+  }
+  30% {
+    border-radius: 43% 57% 47% 53%/46% 46% 54% 54%;
+  }
+  70% {
+    border-radius: 49% 51% 43% 57%/55% 48% 52% 45%;
+  }
+  100% {
+    transform: scaleX(1) translate3d(-50%, -50%, 0);
+    border-radius: 50% 50% 50% 50%/50% 50% 50% 50%;
+  }
+}
+
+@keyframes workDetailsCarouselOnboard {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 50px, 0);
+  }
+
+  10% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+  }
+}

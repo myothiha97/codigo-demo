@@ -1,0 +1,15 @@
+.clear-fix {
+  content: "";
+  clear: both;
+  display: table;
+
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+.margin-bot--15 {
+  margin-bottom: 15px;
+}
