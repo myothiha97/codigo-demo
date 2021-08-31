@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 
 import Link from "next/link";
 import images from "../../data/workDetailPage/imagelists.data";
+
 const WorkDetailPage = () => {
   const [slickImages, setSlickImages] = useState(images);
   const [imageIndex, setImageIndex] = useState(0);
